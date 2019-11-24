@@ -1,0 +1,18 @@
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;  
+  margin-top: auto;
+  padding-right: 62px;
+  padding-left: 62px;
+  margin-bottom: 32px;
+  box-sizing: border-box;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.page-footer__pagination {
+  margin: 0;
+}

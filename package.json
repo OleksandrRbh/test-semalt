@@ -5,7 +5,8 @@
     "Firefox ESR"
   ],
   "dependencies": {
-    "del": "^5.0.0"
+    "del": "^5.0.0",
+    "highcharts": "^7.2.1"
   },
   "description": "test-semalt",
   "devDependencies": {
@@ -44,7 +45,7 @@
     "editorconfig": "editorconfig-cli",
     "start": "gulp start",
     "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
-    "test": "npm run editorconfig \u0026\u0026 npm run stylelint"
+    "test": "npm run editorconfig && npm run stylelint"
   },
   "version": "1.0.0"
 }

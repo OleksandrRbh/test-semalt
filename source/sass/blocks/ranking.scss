@@ -1,0 +1,25 @@
+.ranking {
+  margin-bottom: 72px;
+}
+
+.ranking__title {
+  margin-bottom: 16px;
+}
+
+.ranking__description {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.ranking__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
