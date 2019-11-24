@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;  
   max-width: 1190px;
-  min-height: 1684px;
+  min-height: 1680px;
   margin: 0 auto;
   font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
@@ -12,4 +12,10 @@
   font-size: 24px;
   line-height: 28px; 
   color: $lightgray-text;
+}
+
+@media (max-width: $mobile-width) {
+  .body {
+    min-height: auto;
+  }
 }

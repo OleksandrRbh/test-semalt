@@ -26,7 +26,7 @@
   vertical-align: bottom;
   font-weight: bold;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 32px;
   color: $grayblue-text;
 }
 
@@ -40,6 +40,7 @@
   font-size: 24px;
   line-height: 28px;
   color: $grayblue-text;
+  text-decoration: none;
 }
 
 .flag {  
@@ -62,5 +63,60 @@
 
   &--germany::before {
     background-position: 0 0;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .project {      
+    margin-bottom: 29px;
+    padding-right: 31px;
+    padding-left: 31px;
+  }
+  
+  .project__title {
+    margin-bottom: 5px;
+  }
+  
+  .project__list {
+    display: flex;
+    flex-direction: column;    
+  }
+  
+  .project__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+  }
+  
+  .project__feature {
+    display: block; 
+    width: auto; 
+    height: auto;    
+    font-size: 12px;
+    line-height: 14px;    
+  }
+  
+  .project__value {
+    position: relative;
+    display: block;
+    width: auto; 
+    height: auto;    
+    font-size: 12px;
+    line-height: 14px;    
+  }
+  
+  .flag {  
+    padding-left: 24px;
+  
+    &::before {      
+      bottom: 1px;
+      width: 16px;
+      height: 10px;      
+      background-size: 200%;
+    }
+  
+    &--gb::before {
+      background-position: -16px 0;
+    }    
   }
 }

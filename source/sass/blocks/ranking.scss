@@ -23,3 +23,22 @@
   padding: 0;
   list-style: none;
 }
+
+@media (max-width: $mobile-width) {
+  .ranking {
+    margin-bottom: 36px;
+    padding-right: 31px;
+    padding-left: 31px;
+  }
+  
+  .ranking__title {
+    margin-bottom: 8px;
+  }
+  
+  .ranking__description {    
+    margin-bottom: 12px;    
+    font-size: 12px;
+    line-height: 14px;
+  }  
+
+}

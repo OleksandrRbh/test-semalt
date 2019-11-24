@@ -1,5 +1,5 @@
 .dynamics__title {
-  margin-bottom: 16px;
+  margin-bottom: 16px;  
 }
 
 .dynamics__description {
@@ -13,4 +13,31 @@
 .dynamics__chart {
   max-width: 1166px;
   height: 350px;
+}
+
+@media (max-width: $mobile-width) {
+  .dynamics__title {
+    margin-bottom: 8px;
+    padding-right: 31px;
+    padding-left: 31px;
+
+    &::before {      
+      left: 13px;
+    }      
+  }
+  
+  .dynamics__description {  
+    padding-right: 31px;
+    padding-left: 31px;  
+    margin-bottom: 12px;    
+    font-size: 12px;
+    line-height: 14px;
+  }
+  
+  .dynamics__chart {
+    max-width: 1166px;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+
 }
