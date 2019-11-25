@@ -15,19 +15,10 @@ Highcharts.chart('dynamicsChart', {
   },
 
   legend: {
-      layout: 'vertical',
-      align: 'right',
-      verticalAlign: 'middle'
+    layout: 'horizontal',
+    align: 'center',
+    verticalAlign: 'bottom'
   },
-
-  /*plotOptions: {
-      series: {
-          label: {
-              connectorAllowed: false
-          },
-          pointStart: 01
-      }
-  },*/
 
   series: [{
       name: 'Top 1',
@@ -48,20 +39,5 @@ Highcharts.chart('dynamicsChart', {
       name: 'Top 100',
       data: [2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500, 2500]
   }],
-
-  responsive: {
-      rules: [{
-          condition: {
-              maxWidth: 500
-          },
-          chartOptions: {
-              legend: {
-                  layout: 'horizontal',
-                  align: 'center',
-                  verticalAlign: 'bottom'
-              }
-          }
-      }]
-  }
 
 });

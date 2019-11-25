@@ -1,10 +1,14 @@
+.dynamics {
+  margin-bottom: 78px;
+}
+
 .dynamics__title {
   margin-bottom: 16px;  
 }
 
 .dynamics__description {
   margin: 0;
-  margin-bottom: 24px;
+  margin-bottom: 76px;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
@@ -16,6 +20,10 @@
 }
 
 @media (max-width: $mobile-width) {
+  .dynamics {
+    margin-bottom: 39px;
+  }  
+
   .dynamics__title {
     margin-bottom: 8px;
     padding-right: 31px;
@@ -29,7 +37,7 @@
   .dynamics__description {  
     padding-right: 31px;
     padding-left: 31px;  
-    margin-bottom: 12px;    
+    margin-bottom: 38px;    
     font-size: 12px;
     line-height: 14px;
   }
@@ -39,5 +47,4 @@
     height: 350px;
     margin-bottom: 20px;
   }
-
 }

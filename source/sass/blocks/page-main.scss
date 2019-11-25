@@ -5,25 +5,25 @@
   padding-right: 62px;
   padding-left: 62px;
   box-sizing: border-box;
-}
 
-.page-main__sub-title { 
-  position: relative; 
-  margin: 0;  
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 42px;
-  color: $grayblue-text;
-
-  &::before {
-    position: absolute;
-    content: "";
-    top: 16px;
-    left: -34px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: #2AC9A1;
+  &__sub-title { 
+    position: relative; 
+    margin: 0;  
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: $grayblue-text;
+  
+    &::before {
+      position: absolute;
+      content: "";
+      top: 16px;
+      left: -34px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #2AC9A1;
+    }
   }
 }
 
@@ -31,21 +31,20 @@
   .page-main {    
     padding-top: 17px;  
     padding-right: 0px;
-    padding-left: 0px;    
-  }
-  
-  .page-main__sub-title {     
-    font-size: 18px;
-    line-height: 21px;    
-  
-    &::before {
-      position: absolute;
-      content: "";
-      top: 8px;
-      left: -17px;
-      width: 6px;
-      height: 6px;
+    padding-left: 0px; 
+    
+    &__sub-title {     
+      font-size: 18px;
+      line-height: 21px;    
+    
+      &::before {
+        position: absolute;
+        content: "";
+        top: 8px;
+        left: -17px;
+        width: 6px;
+        height: 6px;
+      }
     }
-  }
-
+  }  
 }
