@@ -16,7 +16,7 @@
 
 .dynamics__chart {
   max-width: 1166px;
-  height: 350px;
+  height: 350px;  
 }
 
 @media (max-width: $mobile-width) {
@@ -42,9 +42,9 @@
     line-height: 14px;
   }
   
-  .dynamics__chart {
+  .dynamics__chart {    
     max-width: 1166px;
     height: 350px;
-    margin-bottom: 20px;
-  }
+    margin-bottom: 20px;    
+  }  
 }
